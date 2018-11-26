@@ -4,28 +4,42 @@
 	font-size: 16px;
 }
 
-.nav {
-	display: flex;
-	height: 50px;
-	border: solid 1px red;
+#main {
+	background: #000;
 }
 
-.yumvi {
-	margin-right: auto;
-}
-
-#secondary-content h2 {
-	background: #ffcc99;
-}
-
-#secondary-content {
-	background: #ffdebd;
+#landing-page {
+	display: block;
+	height: 80vh;
 }
 
 #main-content {
 	display: flex;
 }
 
-.environment {
-	background-image: url('img/environment');
+.intro {
+	width: 50%;
+}
+
+.intro h1, p {
+	color: #fff;
+}
+
+.intro h1 {
+	font-size: 36px;
+}
+
+
+.cow {
+	width: 50%;
+}
+
+.cow {
+	width: 50%;
+	height: 100%
+
+}
+
+.logo {
+	color: #22E4B9;
 }
