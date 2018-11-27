@@ -2,6 +2,19 @@
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
+	font-family: 'Brandon', sans-serif;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('../Circular/circular-bold.otf'),
+  	   url('../Circular/circular-medium.otf'); /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: 'Brandon';
+  src: url('../Brandon/BrandonText-Regular.otf'),
+  	   url('../Brandon/BrandonText-MediumItalic.otf'); /* IE9 Compat Modes */
 }
 
 nav {
@@ -9,33 +22,32 @@ nav {
 	display: flex;
 }
 
-nav svg {
-	margin-left: auto;
-	fill: red;
-}
 
 .menu {
-	fill: red;
+	margin-left: auto;
+	margin-top: 10px;
 }
 
-#main {
-	background: #000;
+#container {
+	background: #000 url('../img/cow.png') right no-repeat;
+	background-size: 50%;
 }
 
 #landing-page {
 	display: block;
-	height: 80vh;
-	width: 90%;
+	height: 100vh;
+	width: 80%;
 	margin: auto;
+	position: relative;
 }
 
 #main-content {
-	display: flex;
+	width: 50%;
 }
 
-.intro {
-	width: 50%;
-	padding-top: 17%;
+.sections {
+	display: block;
+	width: 100%;
 }
 
 .intro h1, p {
@@ -44,17 +56,99 @@ nav svg {
 
 .intro p {
 	width: 70%;
+	margin-top: 30px;
+	line-height: 170%;
+	color: rgba(255, 255, 255, .8);
 }
 
 .intro h1 {
 	font-size: 36px;
+	margin-top: 30%;
+	font-family: 'Circular', sans-serif;
 }
 
-.cow {
-	width: 50%;
-	height: 100%;
+.intro button {
+	margin-top: 50px;
+	padding: 10px 45px;
+	border-radius: 2px;
+	border: none;
+	background: #0cb791;
+	color: #fff;
+	font-family: 'Circular', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
 }
 
 .logo {
-	color: #22E4B9;
+	width: 140px;
+}
+
+.logo img {
+	max-width: 100%;
+}
+
+.explore-why {
+	display: flex;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -55px
+}
+
+.explore-why p {
+	padding-right: 15px;
+}
+
+.explore-why svg {
+	padding-top: 3px;
+}
+
+#secondary {
+	width: 1100px;
+	margin: auto;
+	padding-top: 120px;
+}
+
+#secondary h2 {
+	font-size: 26px;
+	font-family: 'Circular', sans-serif;
+	font-weight: 600;
+	color: #22e4b9;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#secondary p {
+	margin: 0 250px;
+	font-size: 20px;
+	line-height: 160%;
+	color: #333;
+	padding-top: 30px;
+}
+
+#secondary blockquote {
+	margin-top: 30px;
+	font-size: 24px;
+	line-height: 160%;
+	color: #333;
+	padding: 30px 60px;
+	font-style: italic;
+	font-weight: 600;
+	border: 10px solid #22e4b9;
+}
+
+footer {
+	background: #000;
+	width: 100%;
+	display: block;
+	margin-top: 120px;
+}
+
+footer p {
+	font-family: 'Circular', sans-serif;
+	font-weight: bold;
+	font-size: 34px;
+	color: #22e4b9;
+	text-align: center;
+	padding: 80px 0;
 }
