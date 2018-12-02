@@ -66,9 +66,6 @@ nav {
 }
 
 #env_topics {
-	align-self: auto;
-	height: 300px;
-	width: px;
 	margin:0;
 	text-align: center;
   padding-top: 48px;
@@ -85,10 +82,11 @@ nav {
 }
 
 #secondary h1 {
-	font-size: 20px;
+	font-size: 30px;
 	font-family: 'Circular', sans-serif;
-	font-weight: 600;
-	color: #333;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-weight: 900;
+	color: #fff;
 	text-align: center;
 	padding-bottom: 30px;
 	line-height: 100%;
@@ -143,11 +141,11 @@ nav {
 
 #video {
 	height: 360px;
-	width: 100%;
+	width: 1100px;
 	align: center;
 	padding-top: 50px;
 	padding-left: 250px;
-
+	padding-bottom: 50px;
 }
 
 .sections {
@@ -157,11 +155,12 @@ nav {
 
 #topic1 {
 	height: 300px;
-	background: rgba(26,233,179,0.2);
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	float: left;
+	/*background: rgba(26,233,179,0.2);*/
+	background: #000 url('../img/protect-planet.jpg') center no-repeat;
+	background-size: 100%;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
   width: 32%;
   position:absolute;
   top:50px;
@@ -169,22 +168,24 @@ nav {
 	right: 50px;
 }
 
+
 #topic2 {
 	height: 300px;
-	background: rgba(26,233,179,0.2);
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	/*background: rgba(26,233,179,0.2);*/
+	background: #000 url('../img/water.jpg') center no-repeat;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
 	width: 32%;
 	margin: 0 auto;
 }
 
 #topic3 {
 	height: 300px;
-	background: rgba(26,233,179,0.2);
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
+	background: #000 url('../img/animal.jpg') center no-repeat;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
 	width: 32%;
 	position:absolute;
  	top: 50px;
@@ -193,6 +194,7 @@ nav {
 
 #water {
 	padding-top: 70px;
+	background: rgba(26,233,179,0.2);
 }
 
 footer {
