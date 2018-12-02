@@ -22,6 +22,22 @@ nav {
 	display: flex;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
 .logo-container {
 	display: flex;
 	height: 72px;
@@ -84,7 +100,6 @@ nav {
 #secondary h1 {
 	font-size: 30px;
 	font-family: 'Circular', sans-serif;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-weight: 900;
 	color: #fff;
 	text-align: center;
@@ -194,7 +209,21 @@ nav {
 
 #water {
 	padding-top: 70px;
-	background: rgba(26,233,179,0.2);
+}
+
+#animals {
+	padding-top: 70px;
+}
+
+
+hr {
+    display: block;
+    content: "";
+    height: 1px;
+		width: 100%;
+		border-style: solid;
+    border-color: #22e4b9;
+    border-width: 0 0 3px 0;
 }
 
 footer {
