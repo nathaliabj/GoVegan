@@ -141,6 +141,15 @@ nav {
 	padding-left: 300px;
 }
 
+#video {
+	height: 360px;
+	width: 100%;
+	align: center;
+	padding-top: 50px;
+	padding-left: 250px;
+
+}
+
 .sections {
 	display: block;
 	width: 100%;
