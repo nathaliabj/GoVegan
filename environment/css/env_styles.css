@@ -34,7 +34,7 @@ nav {
 }
 
 .nav-menu ul {
-	margin-top: 180px;
+	margin-top: 150px;
 }
 
 .nav-menu li{
@@ -58,7 +58,7 @@ nav {
 .nav-menu li a {
 	text-decoration: none;
 	color: rgba(255, 255, 255, .8);
-	font-size: 40px;
+	font-size: 30px;
 	text-transform: uppercase;
 }
 
