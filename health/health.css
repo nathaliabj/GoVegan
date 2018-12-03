@@ -17,15 +17,91 @@
   	   url('../Brandon/BrandonText-MediumItalic.otf'); /* IE9 Compat Modes */
 }
 
+/***************************
+				Navigation
+***************************/
+
 nav {
 	padding-top: 40px;
-	display: flex;
+  background-color: #000;
+  height: 100px;
+}
+
+.main-menu {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.nav-menu {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, .98);
+	border-radius: 5px;
+	border: 1px;
+	display: none;
+}
+
+.nav-menu ul {
+	margin-top: 180px;
+}
+
+.nav-menu li{
+	list-style: none;
+	text-align: center;
+	font-family: 'Circular', sans-serif;
+	font-weight: 600;
+	margin: 20px 0;
+	padding: 30px 0;
+}
+
+.nav-menu .close {
+	position: absolute;
+	font-size: 30px;
+	right: 150px;
+	top: 35px;
+	cursor: pointer;
+  color: #fff;
+}
+
+.nav-menu li a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, .8);
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+	color: #0cb791;
 }
 
 
 .menu {
 	margin-left: auto;
 	margin-top: 10px;
+	cursor: pointer;
+}
+
+.logo-container {
+	display: flex;
+	height: 72px;
+}
+
+.logo {
+	width: 120px;
+}
+
+.logo img {
+	max-width: 30%;
+}
+
+.logo-text a {
+	color: #fff;
+	font-size: 26px;
+	font-family: 'Circular', sans-serif;
+	text-decoration: none;
 }
 
 #container {
@@ -602,6 +678,51 @@ padding: 0 80px;
 
 }
 
+/***************************
+				Footer
+***************************/
+
+footer {
+	background: #000;
+	width: 100%;
+	display: block;
+	margin-top: 120px;
+}
+
+.footer {
+	display: flex;
+	width: 60%;
+	margin: auto;
+
+}
+
+footer p {
+	font-family: 'Circular', sans-serif;
+	font-weight: bold;
+	font-size: 34px;
+	color: #22e4b9;
+	text-align: center;
+	padding: 80px 0;
+}
+
+.social {
+	display: flex;
+	margin-left: auto;
+	align-items: center;
+}
+
+.social li {
+	margin-left: 20px;
+	border: 1px solid #22e4b9;
+	padding: 8px 10px 6px 10px;
+	border-radius: 50%;
+}
+
+.social svg {
+	fill: #fff;
+}
+
+
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
@@ -619,36 +740,6 @@ padding: 0 80px;
   transition: all 0.3s ease;
   color: white;
   font-size: 20px;
-}
-
-/* Style the social media icons with color, if you want */
-.icon-bar a:hover {
-  background-color: #000;
-}
-
-.facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.google {
-  background: #dd4b39;
-  color: white;
-}
-
-.linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-.youtube {
-  background: #bb0000;
-  color: white;
 }
 
 
@@ -747,4 +838,3 @@ padding: 0 80px;
   from {opacity: .4}
   to {opacity: 1}
 }
->>>>>>> 7c26ab5337fa196fa18201fb3f23b05131bb44d2
