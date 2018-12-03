@@ -17,10 +17,58 @@
   	   url('../Brandon/BrandonText-MediumItalic.otf'); /* IE9 Compat Modes */
 }
 
+/***************************
+				Navigation
+***************************/
+
 nav {
 	padding-top: 40px;
 	display: flex;
 }
+
+.nav-menu {
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, .98);
+	border-radius: 5px;
+	border: 1px;
+	display: none;
+}
+
+.nav-menu ul {
+	margin-top: 180px;
+}
+
+.nav-menu li{
+	list-style: none;
+	text-align: center;
+	font-family: 'Circular', sans-serif;
+	font-weight: 600;
+	margin: 20px 0;
+	padding: 30px 0;
+}
+
+.nav-menu .close {
+	position: absolute;
+	font-size: 30px;
+	right: 150px;
+	top: 35px;
+	cursor: pointer;
+}
+
+.nav-menu li a {
+	text-decoration: none;
+	color: rgba(255, 255, 255, .8);
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+	color: #0cb791;
+}
+
 
 
 .menu {

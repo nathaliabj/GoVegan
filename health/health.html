@@ -11,6 +11,14 @@ initial-scale=1.0">
   </head>
 
   <body>
+    <div class="nav-menu">
+      <p class="close">&#x2715;</p>
+      <ul>
+        <li><a href="health/health.html">Health</a></li>
+        <li><a href="environment/environment.html">Environment</a></li>
+        <li><a href="contact/contact.html">Contact</a></li>
+      </ul>
+    </div>
   <div id="main">
     <section id="container" class="sections">
       <div id="landing-page">
@@ -204,5 +212,16 @@ For instance, several studies have reported that vegan diets tend to provide mor
   </div>
 
 </body>
+
+<script src="../jquery-3.3.1.min.js"></script>
+<script>
+  $('.menu').click(function() {
+    $('.nav-menu').fadeIn();
+  });
+
+  $('.close').click(function() {
+    $('.nav-menu').fadeOut();
+  });
+</script>
 
 </html>
