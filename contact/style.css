@@ -27,7 +27,14 @@
 
 nav {
 	padding-top: 40px;
-	display: flex;
+  background-color: #000;
+  height: 100px;
+}
+
+.main-menu {
+  display: flex;
+  width: 80%;
+  margin: 10px auto;
 }
 
 .nav-menu {
@@ -60,6 +67,7 @@ nav {
 	right: 150px;
 	top: 35px;
 	cursor: pointer;
+  color: #fff;
 }
 
 .nav-menu li a {
@@ -104,109 +112,49 @@ nav {
 				Main content
 ***************************/
 
-#container {
-	background: #000 url('../img/cow.png') right no-repeat;
-	background-size: 50%;
+.about-content {
+  width: 60%;
+  margin: 80px auto;
+  text-align: center;
 }
 
-#landing-page {
-	display: block;
-	height: 100vh;
-	width: 80%;
-	margin: auto;
-	position: relative;
-}
-
-#main-content {
-	width: 50%;
-}
-
-.sections {
-	display: block;
-	width: 100%;
-}
-
-.intro h1, p {
-	color: #fff;
-}
-
-.intro p {
-	width: 70%;
-	margin-top: 30px;
-	line-height: 170%;
-	color: rgba(255, 255, 255, .8);
-}
-
-.intro h1 {
-	font-size: 36px;
-	margin-top: 30%;
-	font-family: 'Circular', sans-serif;
-}
-
-.intro button {
-	margin-top: 50px;
-	padding: 10px 45px;
-	border-radius: 2px;
-	border: none;
-	background: #0cb791;
-	color: #fff;
-	font-family: 'Circular', sans-serif;
-	font-weight: 600;
-	font-size: 14px;
-}
-
-.explore-why {
-	display: flex;
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	margin-left: -55px
-}
-
-.explore-why p {
-	padding-right: 15px;
-}
-
-.explore-why svg {
-	padding-top: 3px;
-}
-
-/***************************
-			Secondary content
-***************************/
-
-#secondary {
-	width: 1100px;
-	margin: auto;
-	padding-top: 120px;
-}
-
-#secondary h2 {
-	font-size: 26px;
+.about-content h2 {
+  font-size: 26px;
 	font-family: 'Circular', sans-serif;
 	font-weight: 600;
 	color: #22e4b9;
-	text-align: center;
 	padding-bottom: 30px;
 }
 
-#secondary p {
-	margin: 0 250px;
+.about-content p {
+  width: 60%;
+  margin: auto;
 	font-size: 20px;
 	line-height: 160%;
 	color: #333;
 	padding-top: 30px;
 }
 
-#secondary blockquote {
-	margin-top: 30px;
-	font-size: 24px;
-	line-height: 160%;
-	color: #333;
-	padding: 30px 60px;
-	font-style: italic;
+form textarea {
+  width: 60%;
+  height: 200px;
+  display: block;
+  border-radius: 5px;
+  margin: 40px auto;
+  padding: 10px;
+  outline-color: #22e4b9;
+}
+
+form .send {
+  width: 40%;
+  height: 55px;
+  border-radius: 2px;
+	border: none;
+	background: #0cb791;
+	color: #fff;
+	font-family: 'Circular', sans-serif;
 	font-weight: 600;
-	border: 10px solid #22e4b9;
+	font-size: 16px;
 }
 
 /***************************
